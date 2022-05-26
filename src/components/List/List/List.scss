@@ -1,0 +1,83 @@
+.todo__list {
+    $self: &;
+    margin-bottom: 30px;
+
+    &__remove-list {
+        opacity: 0;
+        margin-right: 4px;
+    }
+
+    li {
+        display: flex;
+        align-items: center;
+        padding: 4px 2px 2px 4px;
+        margin-bottom: 5px;
+        cursor: pointer;
+
+        &:hover #{$self}__remove-list {
+            transition: opacity 0.15s ease-in-out;
+            opacity: 0.2;
+        }
+
+        &:hover {
+            background-color: #fff;
+            border-radius: 4px;
+        }
+
+        span {
+            flex: 1;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            width: 160px;
+            white-space: nowrap;
+        }
+
+        .badge {
+            position: relative;
+            left: 5px;
+        }
+
+        &.active {
+            background-color: #fff;
+            box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.04);
+            border-radius: 4px;
+
+        }
+
+        i {
+            display: inline-flex;
+            margin-right: 10px;
+
+            svg {
+                opacity: 0.6;
+            }
+
+
+        }
+
+
+    }
+
+
+
+
+    .list__add-button {
+        cursor: pointer;
+
+        span {
+            color: rgb(130, 126, 126);
+        }
+
+        &:hover {
+            svg {
+                path {
+                    fill: #272728;
+                }
+            }
+
+            span {
+                color: #272728;
+            }
+        }
+    }
+}

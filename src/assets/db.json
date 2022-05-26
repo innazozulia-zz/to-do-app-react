@@ -1,0 +1,179 @@
+{
+  "lists": [
+    {
+      "id": 1,
+      "name": "Purchases",
+      "colorId": 1
+    },
+    {
+      "id": 2,
+      "name": "Work",
+      "colorId": 2
+    },
+    {
+      "id": 3,
+      "name": "Books",
+      "colorId": 3
+    },
+    {
+      "id": 4,
+      "name": "Films",
+      "colorId": 4
+    },
+    {
+      "name": "Personal",
+      "colorId": 8,
+      "id": 5
+    },
+    {
+      "name": "Sport",
+      "colorId": 7,
+      "id": 6
+    },
+    {
+      "name": "Dog",
+      "colorId": 3,
+      "id": 7
+    },
+    {
+      "name": "My Hobby",
+      "colorId": 6,
+      "id": 8
+    },
+    {
+      "name": "1111",
+      "colorId": 1,
+      "id": 9
+    },
+    {
+      "name": "1111",
+      "colorId": 1,
+      "id": 10
+    },
+    {
+      "name": "12",
+      "colorId": 1,
+      "id": 11
+    },
+    {
+      "name": "1212",
+      "colorId": 1,
+      "id": 12
+    },
+    {
+      "name": "1212",
+      "colorId": 1,
+      "id": 13
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "listId": 2,
+      "text": "JavaScript",
+      "completed": true
+    },
+    {
+      "id": 2,
+      "listId": 2,
+      "text": "RectJS Hooks (useState, useReduser, useEffect)",
+      "completed": false
+    },
+    {
+      "id": 3,
+      "listId": 2,
+      "text": "FLUX architecture ",
+      "completed": true
+    },
+    {
+      "id": 4,
+      "listId": 2,
+      "text": "Redux",
+      "completed": false
+    },
+    {
+      "listId": 4,
+      "text": "Batman",
+      "completed": false,
+      "id": 18
+    },
+    {
+      "listId": 8,
+      "text": "Gym",
+      "completed": true,
+      "id": 19
+    },
+    {
+      "listId": 2,
+      "text": "test 2 for front end",
+      "completed": false,
+      "id": 21
+    },
+    {
+      "listId": 2,
+      "text": "test 3 for front end",
+      "completed": false,
+      "id": 22
+    },
+    {
+      "listId": 2,
+      "text": "iugsefzf",
+      "completed": false,
+      "id": 23
+    },
+    {
+      "listId": 2,
+      "text": "sgzgzeg",
+      "completed": false,
+      "id": 24
+    },
+    {
+      "listId": 2,
+      "text": "sgzgzseg",
+      "completed": false,
+      "id": 25
+    }
+  ],
+  "colors": [
+    {
+      "id": 1,
+      "hex": "#42B883",
+      "name": "green"
+    },
+    {
+      "id": 2,
+      "hex": "#64C4ED",
+      "name": "blue"
+    },
+    {
+      "id": 3,
+      "hex": "#FFBBCC",
+      "name": "pink"
+    },
+    {
+      "id": 4,
+      "hex": "#FC971B",
+      "name": "yellow"
+    },
+    {
+      "id": 5,
+      "hex": "#FC971B",
+      "name": "orange"
+    },
+    {
+      "id": 6,
+      "hex": "#A73414",
+      "name": "chinese-red"
+    },
+    {
+      "id": 7,
+      "hex": "#5D6B9F",
+      "name": "dark-blue"
+    },
+    {
+      "id": 8,
+      "hex": "#ccc",
+      "name": "grey"
+    }
+  ]
+}
